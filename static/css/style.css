@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#myContainer{
+    display: flex;
+    align-items: center;
+}
+.boardContainer{
+    display: flex;
+    background-color: rgb(255, 128, 105);
+    padding-right: 15px;
+}
+#scoresDisplay{
+    margin: 20px;
+    align-self:flex-start;
+}
+.background{
+    background-color: #1f1f1f;
+}
+.lineCell{
+    background-color: aqua;
+}
+.squareCell{
+    background-color: yellow;
+}
+.rightStairCell{
+    background-color: tomato;
+}
+.leftStairCell{
+    background-color: tomato;
+}
+.leftLCell{
+    background-color: blueviolet;
+}
+.rightLCell{
+    background-color: blueviolet;
+}
+.tCell{
+    background-color: coral;
+}
+.shadow{
+    background-color: rgb(68, 90, 109);
+}
+#gameBoard{
+    border: 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
